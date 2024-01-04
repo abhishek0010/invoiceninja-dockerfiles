@@ -1,8 +1,8 @@
 # IN application vars
-APP_URL=http://in.localhost:8003
+APP_URL=http://invoice.domain.in
 APP_KEY=<insert your generated key in here>
 APP_DEBUG=true
-REQUIRE_HTTPS=false
+REQUIRE_HTTPS=true
 PHANTOMJS_PDF_GENERATION=false
 PDF_GENERATOR=snappdf
 TRUSTED_PROXIES='*'
@@ -15,7 +15,7 @@ DB_HOST=db
 DB_PORT=3306
 DB_DATABASE=ninja
 DB_USERNAME=ninja
-DB_PASSWORD=ninja
+DB_PASSWORD=<change password>
 
 # Create initial user
 # Default to these values if empty
@@ -35,9 +35,9 @@ MAIL_FROM_ADDRESS='user@example.com'
 MAIL_FROM_NAME='Self Hosted User'
 
 # MySQL
-MYSQL_ROOT_PASSWORD=ninjaAdm1nPassword
+MYSQL_ROOT_PASSWORD=ninjaAdm1nPasswordChange
 MYSQL_USER=ninja
-MYSQL_PASSWORD=ninja
+MYSQL_PASSWORD=ninjaChangePWD
 MYSQL_DATABASE=ninja
 
 # V4 env vars
